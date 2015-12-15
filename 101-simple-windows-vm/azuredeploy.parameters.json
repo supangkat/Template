@@ -3,16 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "myStorageAccount"
+      "value": "datadisk1"
     },
     "adminUsername": {
       "value": "admin123"
     },
     "adminPassword": {
-      "value": "ADmin123_!"
+      "value": "Passw0rd!"
     },
     "dnsNameForPublicIP": {
       "value": "myDnsName"
+    },
+    "location":{
+      "value": "west US"
+    },
+    "sizeOfDiskInGB": {
+      "value": "20"
     }
   }
 }
